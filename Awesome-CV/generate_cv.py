@@ -16,7 +16,7 @@ DEFAULT_DATA_DIR = REPO_ROOT / "data"
 DEFAULT_CONFIG_PATH = REPO_ROOT / "_config.yml"
 DEFAULT_OUTPUT_TEX = SCRIPT_DIR / "generated_cv.tex"
 DEFAULT_SECTIONS_DIR = SCRIPT_DIR / "generated"
-DEFAULT_PHOTO_PATH = REPO_ROOT / "data" / "image" / "profile.jpg"
+DEFAULT_PHOTO_PATH = REPO_ROOT / "images" / "profile.jpg"
 
 MONTHS = {
     "jan": 1,
@@ -229,7 +229,7 @@ def strip_equal_contribution_note(text: str) -> str:
 
 def emphasize_name(text: str) -> str:
     escaped = latex_escape(strip_equal_contribution_note(text))
-    return escaped.replace("Masaki Kuribayashi", r"\textbf{Masaki Kuribayashi}")
+    return escaped.replace("Arata Ito", r"\textbf{Arata Ito}")
 
 
 def hostname_from_url(url: str) -> str:

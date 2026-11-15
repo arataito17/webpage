@@ -12,16 +12,17 @@ import re
 URL_RE = re.compile(r"^https?://", re.IGNORECASE)
 DOI_ID_RE = re.compile(r"^10\.\d{4,9}/\S+$", re.IGNORECASE)
 DEFAULT_PROJECT_IMAGE = "/images/comingsoon.jpg"
+AUTHOR_NAMES = ("Arata Ito", "伊藤新")
 ABOUT_TOP_BLOCK = """---
 permalink: /
-title: "Masaki Kuribayashi"
+title: "Arata Ito"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-HCI Researcher at Woven by Toyota
+Graduate Student at Waseda University
 
 **Interest**: Human Computer Interaction (HCI), Accessibility, Human-Centered AI
 """
@@ -175,8 +176,8 @@ def is_phd_thesis_row(row: dict[str, str]) -> bool:
 
 
 def emphasize_author_names(text: str) -> str:
-    text = re.sub(r"Masaki Kuribayashi(\\\*)?", r"**Masaki Kuribayashi**\1", text)
-    text = re.sub(r"栗林雅希(\\\*)?", r"**栗林雅希**\1", text)
+    for name in AUTHOR_NAMES:
+        text = text.replace(name, f"**{name}**")
     return text
 
 
@@ -202,7 +203,7 @@ def format_cell(key: str, raw: str) -> str:
             label = "PDF"
         else:
             label = "Link"
-        return f"[{label}]({href})"
+        return f"[{label}]({with_baseurl(href)})"
 
     if URL_RE.match(value):
         return f"[Link]({value})"
@@ -249,7 +250,7 @@ def render_publication_item(index: int, row: dict[str, str]) -> str:
         parts.append(award)
 
     links: list[str] = []
-    for key in ("url", "slides"):
+    for key in ("doi", "paper_url", "url", "slides"):
         value = clean_text(row.get(key, ""))
         if not value:
             continue
@@ -289,9 +290,15 @@ def resolve_site_href(raw: str) -> str:
     return f"/{normalized}"
 
 
+def with_baseurl(path: str) -> str:
+    if path.startswith("/") and not path.startswith("//"):
+        return "{{ site.baseurl }}" + path
+    return path
+
+
 def render_icon_link(href: str, icon_path: str, alt: str) -> str:
-    link_href = html.escape(href, quote=True)
-    icon_src = html.escape(icon_path, quote=True)
+    link_href = html.escape(with_baseurl(href), quote=True)
+    icon_src = html.escape(with_baseurl(icon_path), quote=True)
     alt_text = html.escape(alt, quote=True)
     return (
         f'<a href="{link_href}" target="_blank" rel="noopener noreferrer" '
@@ -349,23 +356,19 @@ def render_project_item(row: dict[str, str], repo_root: Path) -> str:
 
     title_html = html.escape(title or "Untitled Project")
     authors_html = html.escape(authors)
-    authors_html = re.sub(
-        r"Masaki Kuribayashi(\*)?",
-        r'<strong class="project-item__self">Masaki Kuribayashi\1</strong>',
-        authors_html,
-    )
-    authors_html = re.sub(
-        r"栗林雅希(\*)?",
-        r'<strong class="project-item__self">栗林雅希\1</strong>',
-        authors_html,
-    )
+    for name in AUTHOR_NAMES:
+        authors_html = re.sub(
+            rf"{re.escape(name)}\*?",
+            lambda match: f'<strong class="project-item__self">{match[0]}</strong>',
+            authors_html,
+        )
     venue_html = html.escape(venue)
     if paper_href:
         venue_html = f"{venue_html} {render_pdf_icon_link(paper_href)}"
     if slide_href:
         venue_html = f"{venue_html} {render_slide_icon_link(slide_href)}"
     award_html = html.escape(award)
-    image_html = html.escape(image_path, quote=True)
+    image_html = html.escape(with_baseurl(image_path), quote=True)
     alt_html = html.escape(title or "Project image", quote=True)
     if doi_url:
         doi_html = html.escape(doi_url, quote=True)
@@ -558,8 +561,8 @@ def build_markdown(data_dir: Path, csv_files: list[Path]) -> str:
 
     lines.append("## Projects")
     lines.append("")
-    lines.append(EQUAL_CONTRIBUTION_NOTE)
-    lines.append("")
+    if any("*" in row.get("authors", "") for row in project_rows):
+        lines.extend([EQUAL_CONTRIBUTION_NOTE, ""])
     if project_rows:
         lines.append('<div class="project-list">')
         for row in project_rows:
@@ -649,36 +652,21 @@ def build_publication_markdown(data_dir: Path, csv_files: list[Path]) -> str:
         "",
     ]
 
-    lines.extend(
-        [
-            EQUAL_CONTRIBUTION_NOTE,
-            "",
-            "### English Publications",
-            "",
-            "#### Full Papers",
-            "",
-        ]
-    )
+    if any("*" in row.get("authors", "") for row in full_rows + short_rows + jp_rows):
+        lines.extend([EQUAL_CONTRIBUTION_NOTE, ""])
 
+    if full_rows or short_rows:
+        lines.extend(["### English Publications", ""])
     pub_index = 1
-    if not full_rows:
-        lines.append("_No data available._<br>")
-    else:
-        for row in full_rows:
+    for heading, rows in (("Full Papers", full_rows), ("Short Papers", short_rows)):
+        if not rows:
+            continue
+        lines.extend([f"#### {heading}", ""])
+        for row in rows:
             lines.append(f"{render_publication_item(pub_index, row)}<br>")
             pub_index += 1
+        lines.append("")
 
-    lines.append("")
-    lines.append("#### Short Papers")
-    lines.append("")
-    if not short_rows:
-        lines.append("_No data available._<br>")
-    else:
-        for row in short_rows:
-            lines.append(f"{render_publication_item(pub_index, row)}<br>")
-            pub_index += 1
-
-    lines.append("")
     lines.append("### Japanese Publications")
     lines.append("")
     if not jp_rows:
@@ -713,7 +701,7 @@ def build_japanese_publications_markdown(data_dir: Path, csv_files: list[Path]) 
     for entry in entries:
         lines.append(f"{entry}<br>")
     lines.append("")
-    lines.append("[Back to About](/)<br>")
+    lines.append(f"[Back to About]({with_baseurl('/')})<br>")
     lines.append("")
     lines.append(LONG_FORM_CLOSE)
     lines.append("")

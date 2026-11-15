@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Masaki Kuribayashi"
+title: "Arata Ito"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-HCI Researcher at Woven by Toyota
+Graduate Student at Waseda University
 
 **Interest**: Human Computer Interaction (HCI), Accessibility, Human-Centered AI
 
@@ -15,256 +15,42 @@ HCI Researcher at Woven by Toyota
 
 ## News
 
-- Sept. 2026: **Will serve as ASSETS 2027 Local Chair.**<br>
-- Aug. 2026: **One paper and one poster were accepted to VRST 2026!**<br>
-- Aug. 2026: **Serving as CHI 2027 Associate Chair.**<br>
-- Aug. 2026: **One paper was accepted to ASSETS 2026 Poster!**<br>
-- July. 2026: **Served as UIST 2027 Poster Associate Chair.**<br>
-- July. 2026: **One paper was accepted to UIST 2026!**<br>
-- Apr. 2026: **Joined Woven by Toyota as an HCI Researcher!**<br>
+- Nov. 2026: **I launched my personal website.**<br>
+- Nov. 2026: **I will give an oral presentation at WISS.**<br>
 
 ## Bio
 
-- Apr. 2026 - Current: **HCI Researcher at Woven by Toyota**<br>
-- May. 2026 - Current: **Research Fellow at Waseda University**<br>
-- Apr. 2023 - Mar. 2026: **Ph.D. Student at Waseda University**<br>
-- Apr. 2023 - Mar. 2026: **Research Fellow of the Japan Society for the Promotion of Science (DC1)**<br>
-- Aug. 2024 - Mar. 2026: **Part Time Researcher, Miraikan Accessibility Lab, Miraikan - The National Museum of Emerging Science and Innovation**<br>
-- Aug. 2025 - Oct. 2025: **Intern, Woven by Toyota**<br>
-- Jan. 2024 - May. 2025: **Visiting Researcher, H2X lab, Boston University, Advisor: Eshed Ohn-Bar**<br>
-- Apr. 2021 - Jan. 2024: **Research Intern, IBM Research - Tokyo, Advisor: Hironobu Takagi, Chieko Asakawa, Tatsuya Ishihara**<br>
-- Jun. 2022 - Sept. 2022: **Visiting Researcher, Cognitive Assistance Lab, Carnegie Mellon University, Advisor: Daisuke Sato, Chieko Asakawa**<br>
+- Apr. 2026 – Present: **Graduate Student, Graduate School of Advanced Science and Engineering, Waseda University**<br>
+- Mar. 2026: **Graduated from the School of Advanced Science and Engineering, Waseda University**<br>
 
 ## Projects
 
-*\* indicates equal contribution.*
-
 <div class="project-list">
 <div class="project-item">
-  <div class="project-item__media"><img src="/data/project/masaya_kubota_vrst_2026/image.png" alt="Virtual Exploration for Blind People to Perceive Geometric and Spatial Features" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://dl.acm.org/doi/10.1145/3822517.3848690" target="_blank" rel="noopener noreferrer">Virtual Exploration for Blind People to Perceive Geometric and Spatial Features</a></div>
-    <div class="project-item__venue">VRST 2026 <a href="/data/project/masaya_kubota_vrst_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Masaya Kubota, <strong class="project-item__self">Masaki Kuribayashi*</strong>, Renato Ribeiro*, and Shigeo Morishima</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/shashank_arxiv_2026/image.png" alt="ACME: A Multi-Cultural, Multi-Embodiment Social-Navigation Dataset" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://raoshashank.github.io/acme-socnav-dataset/" target="_blank" rel="noopener noreferrer">ACME: A Multi-Cultural, Multi-Embodiment Social-Navigation Dataset</a></div>
-    <div class="project-item__venue">arXiv <a href="/data/project/shashank_arxiv_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Shashank et al</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/yuta_taguchi_uist_2026/image.png" alt="SnowEcho: End-to-End Blind Skiing Assistance System Using Spatial Audio for Simulated Dynamic Slope" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://dl.acm.org/doi/10.1145/3830398.3830536" target="_blank" rel="noopener noreferrer">SnowEcho: End-to-End Blind Skiing Assistance System Using Spatial Audio for Simulated Dynamic Slope</a></div>
-    <div class="project-item__venue">UIST 2026 <a href="/data/project/yuta_taguchi_uist_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/yuta_taguchi_uist_2026/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Yuta Taguchi, Toshihiro Hirano, <strong class="project-item__self">Masaki Kuribayashi</strong>, Yichen Peng, Chen-Chieh Liao, Erwin Wu, Hideki Koike, and Shigeo Morishima</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/masaki_kuribayashi_phd_thesis_2026/image.png" alt="Map-less Navigation for Blind People" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://waseda.repo.nii.ac.jp/records/2008365" target="_blank" rel="noopener noreferrer">Map-less Navigation for Blind People</a></div>
-    <div class="project-item__venue">PhD Thesis <a href="/data/project/masaki_kuribayashi_phd_thesis_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors"><strong class="project-item__self">Masaki Kuribayashi</strong></div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/yaxin_hu_chi_2026/image.png" alt="Robot-Assisted Group Tours for Blind People" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://dl.acm.org/doi/10.1145/3772318.3790425" target="_blank" rel="noopener noreferrer">Robot-Assisted Group Tours for Blind People</a></div>
-    <div class="project-item__venue">CHI 2026 <a href="/data/project/yaxin_hu_chi_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/yaxin_hu_chi_2026/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Yaxin Hu, <strong class="project-item__self">Masaki Kuribayashi</strong>, Allan Wang, Seita Kayukawa, Daisuke Sato, Bilge Mutlu, Hironobu Takagi, Chieko Asakawa</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/rayna_hata_chi_2026/image.png" alt="How Does Delegation in Social Interaction Evolve Over Time? Navigation with a Robot for Blind People" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://dl.acm.org/doi/10.1145/3772318.3791439" target="_blank" rel="noopener noreferrer">How Does Delegation in Social Interaction Evolve Over Time? Navigation with a Robot for Blind People</a></div>
-    <div class="project-item__venue">CHI 2026 <a href="/data/project/rayna_hata_chi_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/rayna_hata_chi_2026/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Rayna Hata, <strong class="project-item__self">Masaki Kuribayashi</strong>, Allan Wang, Hironobu Takagi, Chieko Asakawa</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/masaki_kuribayashi_icra_2026/image.png" alt="Time-Aware Assistive Navigation" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11696883" target="_blank" rel="noopener noreferrer">Time-Aware Assistive Navigation</a></div>
-    <div class="project-item__venue">ICRA 2026 <a href="/data/project/masaki_kuribayashi_icra_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/masaki_kuribayashi_icra_2026/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors"><strong class="project-item__self">Masaki Kuribayashi*</strong>, Zhongkai Shangguan*, Eshed Ohn-Bar</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/masaki_kuribayashi_ra_l_2025/image.png" alt="Memory-Maze: Scenario Driven Visual Language Navigation Benchmark for Guiding Blind People" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://doi.org/10.1109/LRA.2025.3615028" target="_blank" rel="noopener noreferrer">Memory-Maze: Scenario Driven Visual Language Navigation Benchmark for Guiding Blind People</a></div>
-    <div class="project-item__venue">RA-L 2025 <a href="/data/project/masaki_kuribayashi_ra_l_2025/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/masaki_kuribayashi_ra_l_2025/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors"><strong class="project-item__self">Masaki Kuribayashi*</strong>, Kohei Uehara*, Allan Wang, Daisuke Sato, Renato Ribeiro, Simon Chu, and Shigeo Morishima</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/yusuke_miura_chi_2025/image.png" alt="Understanding and Supporting Formal Email Exchange by Answering AI-Generated Questions" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://doi.org/10.1145/3706598.3714016" target="_blank" rel="noopener noreferrer">Understanding and Supporting Formal Email Exchange by Answering AI-Generated Questions</a></div>
-    <div class="project-item__venue">CHI 2025 <a href="/data/project/yusuke_miura_chi_2025/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/yusuke_miura_chi_2025/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Yusuke Miura, Chi-Lan Yang, <strong class="project-item__self">Masaki Kuribayashi</strong>, Keigo Matsumoto, Hideki Kuzuoka, and Shigeo Morishima</div>
-    <div class="project-item__award">CHI 2026 Honorable Mention, Azusa Ono Memorial Award</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/masaki_kuribayashi_chi_2025/image.png" alt="WanderGuide: Indoor Map-less Robotic Guide for Exploration by Blind People" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://doi.org/10.1145/3706598.3713788" target="_blank" rel="noopener noreferrer">WanderGuide: Indoor Map-less Robotic Guide for Exploration by Blind People</a></div>
-    <div class="project-item__venue">CHI 2025 <a href="/data/project/masaki_kuribayashi_chi_2025/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/masaki_kuribayashi_chi_2025/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors"><strong class="project-item__self">Masaki Kuribayashi</strong>, Kohei Uehara, Allan Wang, Shigeo Morishima, and Chieko Asakawa</div>
-    <div class="project-item__award">Azusa Ono Memorial Award</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/toshihiro_hirano_ahs_2025/image.png" alt="SlopeNav: A Realtime Wearable Blind Ski Assistance System with Adaptive Path Planning for Simulated Environments" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://doi.org/10.1145/3745900.3746082" target="_blank" rel="noopener noreferrer">SlopeNav: A Realtime Wearable Blind Ski Assistance System with Adaptive Path Planning for Simulated Environments</a></div>
-    <div class="project-item__venue">AHs 2025 <a href="/data/project/toshihiro_hirano_ahs_2025/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/toshihiro_hirano_ahs_2025/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Toshihiro Hirano, Yichen Peng, <strong class="project-item__self">Masaki Kuribayashi</strong>, Erwin Wu, Shigeo Morishima, and Hideki Koike</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/hee_jae_kim_neurips_2024/image.gif" alt="Text to Blind Motion" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://doi.org/10.52202/079017-0519" target="_blank" rel="noopener noreferrer">Text to Blind Motion</a></div>
-    <div class="project-item__venue">NeurIPS 2024 <a href="/data/project/hee_jae_kim_neurips_2024/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Hee Jae Kim, Kathakoli Sengupta, <strong class="project-item__self">Masaki Kuribayashi</strong>, Hernisa Kacorri, Eshed Ohn-Bar</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/masaya_kubota_mobilehci_2024/image.png" alt="Snap&amp;Nav: Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://doi.org/10.1145/3676522" target="_blank" rel="noopener noreferrer">Snap&amp;Nav: Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection</a></div>
-    <div class="project-item__venue">MobileHCI 2024 <a href="/data/project/masaya_kubota_mobilehci_2024/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/masaya_kubota_mobilehci_2024/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Masaya Kubota*, <strong class="project-item__self">Masaki Kuribayashi*</strong>, Seita Kayukawa, Hironobu Takagi, Chieko Asakawa, Shigeo Morishima</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/yuka_kaniwa_mobilehci_2024/image.png" alt="ChitChatGuide: Conversational Interaction Using Large Language Models for Assisting People with Visual Impairments to Explore a Shopping Mall" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://doi.org/10.1145/3676492" target="_blank" rel="noopener noreferrer">ChitChatGuide: Conversational Interaction Using Large Language Models for Assisting People with Visual Impairments to Explore a Shopping Mall</a></div>
-    <div class="project-item__venue">MobileHCI 2024 <a href="/data/project/yuka_kaniwa_mobilehci_2024/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/yuka_kaniwa_mobilehci_2024/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Yuka Kaniwa*, <strong class="project-item__self">Masaki Kuribayashi*</strong>, Seita Kayukawa, Daisuke Sato, Hironobu Takagi, Chieko Asakawa, Shigeo Morishima</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/yusuke_miura_ahs_2023/image.jpg" alt="Exploration of Sonification Feedback for People with Visual Impairment to Use Ski Simulator" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://doi.org/10.1145/3582700.3582702" target="_blank" rel="noopener noreferrer">Exploration of Sonification Feedback for People with Visual Impairment to Use Ski Simulator</a></div>
-    <div class="project-item__venue">AHs 2023 <a href="/data/project/yusuke_miura_ahs_2023/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/yusuke_miura_ahs_2023/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Yusuke Miura, Erwin Wu, <strong class="project-item__self">Masaki Kuribayashi</strong>, Hideki Koike, Shigeo Morishima</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/masaki_kuribayashi_chi_2023/image.png" alt="PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://doi.org/10.1145/3544548.3580687" target="_blank" rel="noopener noreferrer">PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings</a></div>
-    <div class="project-item__venue">CHI 2023 <a href="/data/project/masaki_kuribayashi_chi_2023/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/masaki_kuribayashi_chi_2023/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors"><strong class="project-item__self">Masaki Kuribayashi</strong>, Tatsuya Ishihara, Daisuke Sato, Jayakorn Vongkulbhisal, Karnik Ram, Seita Kayukawa, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/masaki_kuribayashi_mobilehci_2022/image.png" alt="Corridor-Walker: Mobile Indoor Walking Assistance for Blind People to Avoid Obstacles and Recognize Intersections" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://doi.org/10.1145/3546714" target="_blank" rel="noopener noreferrer">Corridor-Walker: Mobile Indoor Walking Assistance for Blind People to Avoid Obstacles and Recognize Intersections</a></div>
-    <div class="project-item__venue">MobileHCI 2022 <a href="/data/project/masaki_kuribayashi_mobilehci_2022/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/masaki_kuribayashi_mobilehci_2022/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors"><strong class="project-item__self">Masaki Kuribayashi</strong>, Seita Kayukawa, Jayakorn Vongkulbhisal, Daisuke Sato, Chieko Asakawa, Hironobu Takagi, Shigeo Morishima</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/masaki_kuribayashi_chi_2021/image.png" alt="LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://dl.acm.org/doi/10.1145/3411764.3445451" target="_blank" rel="noopener noreferrer">LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line</a></div>
-    <div class="project-item__venue">CHI 2021 <a href="/data/project/masaki_kuribayashi_chi_2021/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/masaki_kuribayashi_chi_2021/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors"><strong class="project-item__self">Masaki Kuribayashi*</strong>, Seita Kayukawa*, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima</div>
-    <div class="project-item__award">Azusa Ono Memorial Award</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/ikegami_momoka_chi_2026/image.png" alt="``Thank God I’m Fly!&#x27;&#x27;: A Gyaru Persona Chatbot for Adopting a Positive Mindset to Prevent and Mitigate Negative Emotions" loading="lazy"></div>
-  <div class="project-item__body">
-    <div class="project-item__title"><a href="https://dl.acm.org/doi/10.1145/3772363.3798615" target="_blank" rel="noopener noreferrer">``Thank God I’m Fly!&#x27;&#x27;: A Gyaru Persona Chatbot for Adopting a Positive Mindset to Prevent and Mitigate Negative Emotions</a></div>
-    <div class="project-item__venue">CHI 2026 Posters <a href="/data/project/ikegami_momoka_chi_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/ikegami_momoka_chi_2026/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Momoka Ikegami, <strong class="project-item__self">Masaki Kuribayashi</strong>, Takuya Kato, Saizo Aoyagi, Tatsunori Hirai</div>
-  </div>
-</div>
-<div class="project-item">
-  <div class="project-item__media"><img src="/data/project/arata_ito_assets_2026/image.png" alt="Exploring Blind People’s Information Needs for Sightseeing Narration Generated by Vision-Language Models" loading="lazy"></div>
+  <div class="project-item__media"><img src="{{ site.baseurl }}/data/project/arata_ito_assets_2026/image.png" alt="Exploring Blind People’s Information Needs for Sightseeing Narration Generated by Vision-Language Models" loading="lazy"></div>
   <div class="project-item__body">
     <div class="project-item__title"><a href="https://dl.acm.org/doi/10.1145/3797867.3841202" target="_blank" rel="noopener noreferrer">Exploring Blind People’s Information Needs for Sightseeing Narration Generated by Vision-Language Models</a></div>
-    <div class="project-item__venue">ASSETS 2026 Posters <a href="/data/project/arata_ito_assets_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Arata Ito, Seita Kayukawa, <strong class="project-item__self">Masaki Kuribayashi</strong>, Daisuke Sato, Chieko Asakawa, and Shigeo Morishima</div>
+    <div class="project-item__venue">ASSETS 2026 Posters <a href="{{ site.baseurl }}/data/project/arata_ito_assets_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="{{ site.baseurl }}/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a></div>
+    <div class="project-item__authors"><strong class="project-item__self">Arata Ito</strong>, Seita Kayukawa, Masaki Kuribayashi, Daisuke Sato, Chieko Asakawa, and Shigeo Morishima</div>
   </div>
 </div>
 <div class="project-item">
-  <div class="project-item__media"><img src="/data/project/shoya_higuchi_vrst_poster_2026/image.png" alt="Gestures for Blind People to Specify Spatial Focus of Vision Language Models on Head-Worn Devices" loading="lazy"></div>
+  <div class="project-item__media"><img src="{{ site.baseurl }}/data/project/shoya_higuchi_vrst_poster_2026/image.png" alt="Gestures for Blind People to Specify Spatial Focus of Vision Language Models on Head-Worn Devices" loading="lazy"></div>
   <div class="project-item__body">
     <div class="project-item__title"><a href="https://dl.acm.org/doi/10.1145/3822517.3849953" target="_blank" rel="noopener noreferrer">Gestures for Blind People to Specify Spatial Focus of Vision Language Models on Head-Worn Devices</a></div>
-    <div class="project-item__venue">VRST 2026 Posters <a href="/data/project/shoya_higuchi_vrst_poster_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="/data/project/shoya_higuchi_vrst_poster_2026/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
-    <div class="project-item__authors">Shoya Higuchi, <strong class="project-item__self">Masaki Kuribayashi</strong>, Arata Ito, Shigeo Morishima</div>
+    <div class="project-item__venue">VRST 2026 Posters <a href="{{ site.baseurl }}/data/project/shoya_higuchi_vrst_poster_2026/paper.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="{{ site.baseurl }}/images/pdf_icon.png" alt="PDF" style="height:1em;width:auto;vertical-align:middle;"></a> <a href="{{ site.baseurl }}/data/project/shoya_higuchi_vrst_poster_2026/slide.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;vertical-align:middle;margin-left:0.2em;"><img src="{{ site.baseurl }}/images/slide_icon.png" alt="Slides" style="height:1em;width:auto;vertical-align:middle;"></a></div>
+    <div class="project-item__authors">Shoya Higuchi, Masaki Kuribayashi, <strong class="project-item__self">Arata Ito</strong>, Shigeo Morishima</div>
   </div>
 </div>
 </div>
 
 ## Awards
 
-1. **2020年度 早稲田大学小野梓記念学術賞(Azusa Ono memorial award 2020)** - Mar. 2021<br>
-2. **WISS最優秀論文賞(WISS best paper award)** - Dec. 2020<br>
-3. **2024年度 早稲田大学小野梓記念学術賞(Azusa Ono memorial award 2024)** - Mar. 2025<br>
-
-## Academic Service
-
-### Reviewing
-
-- Associate Chair of CHI 2027<br>
-- Associate Chair of UIST 2026 Poster<br>
-- Associate Chair of CHI 2025 LBW<br>
-- External Reviewer of ASSETS, CHI, IMWUT, Mobile HCI, ICRA, UIST, and HRI<br>
-
-### Committee Member
-
-- ASSETS 2027 Local Chairs<br>
-- WISS 2026 Program Committee<br>
-- CHI 2025 Assistants to Local Chairs<br>
-- Miraikan Accessibility Networking Event Organizer<br>
-- WISS 2025 Student Volunteer<br>
+1. **Audience Choice Poster Award, ASSETS ’26** - Oct. 2026<br>
 
 ## Fellowships
 
-1. **Research Fellowship for Young Scientists (DC1) JSPS (日本学術振興会 特別研究員DC1)** - Apr. 2023 - Mar. 2026<br>
-2. **Scholarship for Outstanding Master Students Japan Student Services Organization (JASSO) (日本学生支援機構 奨学金 全額返済免除 )** - Apr. 2021 - Mar. 2023<br>
-3. **Isao Okawa Scholarship for Information Technology Science(大川功情報通信学術奨学金)** - Mar. 2023<br>
-4. **Visiting support from Super Global University (SGU), ICT & Robotics, Waseda University,** - Jan. 2024. - May. 2025<br>
-5. **Scholarship for short-term study abroad, Japan Student Services Organization (JASSO),** - Jan. 2024. - May. 2025.<br>
-6. **Travel support from The Telecommunications Advancement Foundation to MobileHCI 2024 (Melbourne)** - Oct. 2024<br>
-
-## Talks
-
-1. **Introduction to Accessibility Research** (Hong Kong Japanese School) - May 2023<br>
-2. **PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings** (Forum on Information Technology (FIT 2024)) - Sep 2024<br>
-3. **Research Introduction; Map-less Navigation System for Blind People** (A11y Meetup, Cybozu (Japan)) - Feb 2025<br>
-4. **PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings** (Global Creative Leaders Society, The University of Tokyo) - Mar 2025<br>
-5. [**WanderGuide: Indoor Map-less Robotic Guide for Exploration by Blind People**](https://sigchi.jp/symposium/chi2025_symposium/) (CHI 2025 Symposium) - May 2025<br>
-6. **Navigation System for Blind People** (Creative Japan Session at Siggraph ASIA 2025) - Dec 2025<br>
-7. [**Accessibility Research for Blind People in the AI Era: What Is Left to Do?**](https://nkmr-lab.org/news/2026-spring-invited-speaker.html) (Seminar at Nakamura Lab Meiji University) - May 2026<br>
-8. [**視覚障害者のMap-less Navigation System実現のための協調インタラクション**](https://pub.confit.atlas.jp/ja/event/ssii2026/content/organized) (SSII 2026 Organized Session 人が使う画像センシング) - Jun 2026<br>
-
-## Media
-
-1. [CHI2023論文裏話](https://note.com/chestnutforest/n/n03441edf8ad0)<br>
-2. [ボストン大学留学レポート](https://www.waseda.jp/fsci/ict-robotics/study-abroad/4716)<br>
-3. [研究入門者のためのGit/Github入門](https://note.com/chestnutforest/n/n2434abb8d009)<br>
-4. [研究入門者のための研究ツール・Tips紹介](https://note.com/chestnutforest/n/n3ad54b1aa5f8)<br>
-5. [HCIからCVへ](https://note.com/chestnutforest/n/nafb01d21a878)<br>
-6. [Hugging FaceにSSHで接続してGitでモデルをPushする方法](https://qiita.com/chestnutforestlabo/items/cf1b4eb94ab68ed56f25)<br>
-7. [視覚障害者の移動 第3の選択肢 「AIスーツケース」開発スタッフに聞く](https://mext-gov.note.jp/n/nf676373b0d8d)<br>
-8. [Coding Accessibility: Dr. Asakawa Audio Descriptive Version](https://www.youtube.com/watch?v=kIgMb-PhhbQ)<br>
+1. **松本陽一奨学金** - 2025<br>
+2. **照田喜美枝大学院進学支援奨学金** - 2024<br>
 
 </div>
