@@ -15,8 +15,9 @@ Graduate Student at Waseda University
 
 ## News
 
-- Nov. 2026: **I launched my personal website.**<br>
+- Nov. 2026: **I received the Audience Choice Poster Award at ASSETS ’26.**<br>
 - Nov. 2026: **I will give an oral presentation at WISS.**<br>
+- Nov. 2026: **I launched my personal website.**<br>
 
 ## Bio
 
