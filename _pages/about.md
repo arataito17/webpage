@@ -9,7 +9,7 @@ redirect_from:
 
 Graduate Student at Waseda University
 
-**Interest**: Human Computer Interaction (HCI), Accessibility, Human-Centered AI
+**Interest**: Human Computer Interaction (HCI), Accessibility
 
 <div class="long-form-content" markdown="1">
 

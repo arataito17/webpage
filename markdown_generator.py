@@ -24,7 +24,7 @@ redirect_from:
 
 Graduate Student at Waseda University
 
-**Interest**: Human Computer Interaction (HCI), Accessibility, Human-Centered AI
+**Interest**: Human Computer Interaction (HCI), Accessibility
 """
 JAPANESE_PUBLICATION_TOP_BLOCK = """---
 permalink: /japanese_publication/
