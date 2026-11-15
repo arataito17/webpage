@@ -50,7 +50,7 @@ Graduate Student at Waseda University
 
 ## Fellowships
 
-1. **松本陽一奨学金** - 2025<br>
-2. **照田喜美枝大学院進学支援奨学金** - 2024<br>
+1. **Yoichi Matsumoto Scholarship (松本陽一奨学金)** - 2025<br>
+2. **Kimie Teruta Scholarship for Graduate Studies (照田喜美枝大学院進学支援奨学金)** - 2024<br>
 
 </div>
